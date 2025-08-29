@@ -12,3 +12,9 @@ Ejemplo:
 50 es par
 
 """
+numeros=list(range (1,51))
+for numero in numeros: 
+    if numero % 2 == 0:
+        print(f"{numero},es par")
+    else:
+        print(f"{numero}, es impar")
