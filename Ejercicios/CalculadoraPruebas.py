@@ -101,4 +101,6 @@ except ValueError:
 3) OPCIONAL: Ver si se puede refactorizar la función utilizando un diccionario.
     operacionesPosibles = {suma: +,resta: -, multi: *, divi: /}
 
+4) Realizarlo con TRY / EXCEPT / FINALLY
+
 """
