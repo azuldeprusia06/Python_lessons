@@ -27,9 +27,10 @@ Pistas:
 La función principal no debería hacer los cálculos directamente, sino delegar en las funciones auxiliares.
 Puedes usar condicionales (if/elif) para decidir qué función llamar.
 Recuerda manejar la división para evitar errores si el divisor es 0.
-
-
 """
+
+
+
 
 try:
     number1=float(input("Ingresa un numero: "))
@@ -89,3 +90,15 @@ except ValueError:
 
 
 
+"""
+
+1) Codear el WHILE para la pedida de numeros y operaciones
+
+2)  Validar si la operación que escribió el usuario, es correcta. (Ver lista, include)
+    operacionesValidas = [suma, resta, divi, multi]
+    LISTA operacionesValidas "INCLUDE"
+
+3) OPCIONAL: Ver si se puede refactorizar la función utilizando un diccionario.
+    operacionesPosibles = {suma: +,resta: -, multi: *, divi: /}
+
+"""
